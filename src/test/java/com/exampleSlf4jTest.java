@@ -11,5 +11,7 @@ public class exampleSlf4jTest {
     @Test
     public void testLoggingWithLsftjSimple() {
         log.warn("This is a warning message from test source tree");
+        log.error("A new error log message. I've also changed the default" +
+                "log level for this logger, so the warn message doesn't show up anymore.");
     }
 }
