@@ -9,5 +9,7 @@ public class Slf4jExample {
 
     public static void main(String[] args) {
         log.info("This is an info message from main source tree");
+        log.info("These messages are now printed by 'logback-classic' logger " +
+                "implementation using its default configuration");
     }
 }
